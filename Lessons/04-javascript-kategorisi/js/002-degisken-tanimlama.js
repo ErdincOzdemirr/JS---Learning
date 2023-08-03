@@ -1,4 +1,4 @@
-// ********** let ve const ile Degisken Tanimlama ********** 
+// ********** let ve const ile Degisken Tanimlama **********
 
 // var ile degisken tanimlamak:
 // var serverName = "api.kodluyoruz.org"
@@ -6,7 +6,7 @@
 
 // let ile degiskeni bos tanimlamak:
 let serverName;
-console.log(serverName)
+// console.log(serverName)
 
 // let ile degiskene bilgi atamak:
 serverName = "https://kodluyoruz.org"
@@ -18,7 +18,7 @@ console.log(password)
 
 // degisken atamasi yapmadan once kullanmaya calismak:
 
-/* HATALI KULLANIM:  
+/* HATALI KULLANIM:
 console.log(fullName)
 let fullName = "Hakan Yalcinkaya";
 */
@@ -35,6 +35,7 @@ console.log(fullName + " Test Bilgisi") // Ekle ve Goster ama Degiskene Eklemedi
 
 fullName = fullName + " Yeni Bilgi"
 fullName =  "2: Bilgi : " + fullName
+console.log(fullName)
 
 fullName = "Sifirlandi"
 fullName += " ve Yeni Bilgi Eklendi"
@@ -47,5 +48,5 @@ console.log(fullName)
 const SERVER_PASSWORD = "oisjefo9jwes221"
 console.log(SERVER_PASSWORD)
 
-// SERVER_PASSWORD = "1234"
-// console.log(SERVER_PASSWORD)
+SERVER_PASSWORD = "1234"
+console.log(SERVER_PASSWORD)
