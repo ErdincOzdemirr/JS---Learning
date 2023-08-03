@@ -12,19 +12,19 @@
 // let kodluyoruzServerInfo = "" // bu dogru :)
 // let kodluyoruzSERverInfo = "" // bu dogru kullanim degil :(
 
-// let firstName = "Hakan", lastName = "Yalcinkaya"
-// let firstName = "Hakan"
-// let lastName = "Yalcinkaya"
+// let firstName = "Erdinç", lastName = "Özdemir"
+// let firstName = "Erdinç"
+// let lastName = "Özdemir"
 // console.log(firstName, lastName)
 
-// // UPPER_CASE Kullanimi:
+// UPPER_CASE Kullanimi:
 // const password = "1234" // bu dogru kullanim degil :(
 // const PASSWORD = "1234" // dogru kullanim
 // const SERVER_PASSWORD = "1234"
 
-// // degiskenlerde turkce ve diger dillerin kullanimi:
+// degiskenlerde turkce ve diger dillerin kullanimi:
 // let türkçeBilgi = 'Türkçe Bilgi Yazdırılıyor..' // bu dogru kullanim degil :(
-// // let turkceBilgi // olmazzz :(
+// let turkceBilgi // olmazzz :(
 // let info = 'Türkçe Bilgi Yazdırılıyor..'
 // console.log(info)
 
