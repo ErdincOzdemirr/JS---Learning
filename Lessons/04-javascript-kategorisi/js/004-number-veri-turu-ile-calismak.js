@@ -59,5 +59,20 @@
 // // yakina yuvarlama islemi -> Math.round :
 // console.log("Yakina Yuvarlama: ", Math.round(1.5) ) // 1.4 ->1, 1.5 ->
 
-var result = 3+5;
+var result = 3+5; //toplama
 console.log(result);
+
+var result = 5-2; //çıkarma
+console.log(result);
+
+var result = 5*2 //çarpma
+console.log(result)
+
+var result = 6/3 //bölme
+console.log(result)
+
+var result = 5**2 //üs alma
+console.log(result)
+
+var result = 6%3 //mod alma
+console.log(result)
