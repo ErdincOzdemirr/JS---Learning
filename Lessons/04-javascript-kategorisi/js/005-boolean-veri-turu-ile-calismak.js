@@ -5,7 +5,6 @@
 // isActive = true // 1
 // console.log(isActive)
 
-
 // let userName;
 // let isUserName = Boolean(userName)
 // console.log(isUserName)
@@ -39,3 +38,16 @@
 // userName = "user"
 // console.log("User Name:", Boolean(userName))
 
+var x = 1;
+console.log(Boolean(x));
+
+var y = 0;
+console.log(Boolean(y));
+
+var z = "0";
+console.log(Boolean(z));
+
+console.log(Boolean(1n));
+console.log(Boolean(-1n));
+console.log(Boolean(Infinity));
+console.log(Boolean({}));
