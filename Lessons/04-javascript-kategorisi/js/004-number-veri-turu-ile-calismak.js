@@ -76,3 +76,18 @@ console.log(result)
 
 var result = 6%3 //mod alma
 console.log(result)
+
+
+//arttırma
+// let counter = 1;
+//     let a = ++counter;
+//     console.log(a)
+
+// let counter = 1;
+//     let a = counter++;
+//     console.log(counter)
+
+// // azaltma
+// let counter = 2;
+// let a = --counter;
+// alert(a)
