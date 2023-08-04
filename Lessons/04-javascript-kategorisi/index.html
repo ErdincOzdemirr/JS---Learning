@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kodluyoruz - Front-End 101</title>
     <!-- <style>
         .text-primary {
@@ -13,18 +12,18 @@
             color: red
         }
     </style> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <div id="alert"></div>
 
     <h1 id="greeting">Kodluyoruz - Front-End 101</h1>
-
-
-
 
     <!-- 010 dom icerisinden oge secimi ve duzenleme islemleri:
     <h2 id="title">Merhaba Dunya</h2>
@@ -52,6 +51,15 @@
 
     <!-- 015 - 016 - 017 - 018 - Kosullarla Calismak -->
     <h2 id="info"></h2>
+    <h1>Beden Kitle Endeksi Hesaplayıcı</h1>
+    <label for="weight">Kilonuzu girin (kg):</label>
+    <input type="number" id="weight" step="0.01" min="0" required />
+    <br />
+    <label for="height">Boyunuzu girin (metre):</label>
+    <input type="number" id="height" step="0.01" min="0" required />
+    <br />
+    <button onclick="calculateBMI()">Hesapla</button>
+    <p id="result"></p>
 
     <!-- 023 - 026 - js counter
     <h3 id="counter">100</h3>
@@ -89,9 +97,7 @@
     -->
 
     <!-- 033-for-dongusu-kullanimi -->
-    <ul class="list-group" id="userList">
-
-    </ul>
+    <ul class="list-group" id="userList"></ul>
 
     <!--
         Not:
@@ -99,10 +105,11 @@
         Dosya Üzerinde Çalışmadan Önce Lütfen Açıklama Satırında Olup Olmadığını Kontrol Edin
     -->
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
     <!-- <script src="js/001-hello-world.js"></script> -->
     <!-- <script src="js/002-degisken-tanimlama.js"></script> -->
     <!-- <script src="js/003-degisken-tanimlama-kurallari.js"></script> -->
@@ -147,6 +154,5 @@
     <!-- <script src="js/042-09-042-object-ve-array-destructuring-nasil-kullanilir.js"></script> -->
     <!-- <script src="js/043-hata-yonetimi-icin-try-catch-kullanimi.js"></script> -->
     <!-- <script src="/Lessons/04-javascript-kategorisi/js/012-liste-icindeki-ogeye-ulasmak-veya-yeni-oge-eklemek.js"></script> -->
-</body>
-
+  </body>
 </html>
