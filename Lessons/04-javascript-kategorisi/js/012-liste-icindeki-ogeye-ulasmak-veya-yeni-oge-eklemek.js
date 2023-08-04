@@ -11,6 +11,8 @@ let liDOM = document.createElement('li')
 
 liDOM.innerHTML = "Kendi Olusturdugumuz Oge"
 
-// ulDOM.append(liDOM) // en sona ekler
-ulDOM.prepend(liDOM)
+ulDOM.append(liDOM) // en sona ekler
+// ulDOM.prepend(liDOM)//en başa ekler
 
+let item = document.querySelector("ul#list>li:last-child")
+console.log(item)
