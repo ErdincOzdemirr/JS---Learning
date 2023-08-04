@@ -5,9 +5,9 @@ function hello(firstName) {
     console.log(`Merhaba ${firstName}`)
 }
 
-hello("JavaScript")
+hello("Erdinc")
 
-const helloFuncV1 = (firstName) => { console.log(`Merhaba ${firstName}`) } 
+const helloFuncV1 = (firstName) => { console.log(`Merhaba ${firstName}`) }
 helloFuncV1("helloFuncV1")
 
 
@@ -23,7 +23,7 @@ helloFuncV3("helloFuncV3", "Last Name info")
 
 const helloFuncV4 = (firstName, lastName) => {
     let info = `Merhaba ${firstName} ${lastName}`
-    console.log(info) 
+    console.log(info)
     return info
 }
 
