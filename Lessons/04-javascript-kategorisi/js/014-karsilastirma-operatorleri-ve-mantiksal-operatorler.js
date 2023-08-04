@@ -1,7 +1,7 @@
 // ********** Karsilastirma Operatorleri ve Mantiksal Operatorler **********
 // https://www.w3schools.com/js/js_comparisons.asp
 
-let price = "0"
+let price = "100"
 let user = "erdinc"
 
 // == Eşitse
@@ -14,6 +14,7 @@ console.log("=== :", price === 100 )
 
 // != Eşit değilse
 console.log(user != "guest" )
+console.log(price != 1)
 
 // < Küçükse
 console.log("price < 100", price < 100)
