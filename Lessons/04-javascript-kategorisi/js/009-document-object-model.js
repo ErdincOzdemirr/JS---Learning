@@ -1,6 +1,10 @@
 // DOM
 // https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
+console.log(document.URL)
+console.log(document.location)
+console.log(document.location.hostname)
+
 // pathname
 console.log(document.location.pathname)
 
