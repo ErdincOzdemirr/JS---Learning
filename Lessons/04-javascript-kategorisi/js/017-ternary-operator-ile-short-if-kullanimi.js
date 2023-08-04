@@ -10,4 +10,12 @@ let info = document.querySelector("#info")
 
 // userName.length > 0 ? userName : "Kullani Bilginiz Bulunamadi :("
 
-info.innerHTML = `${userName ? userName : "Kullani Bilginiz Bulunamadi :("}`
+info.innerHTML = `${userName ? userName : "Kullani Bilginiz Bulunamadi :( "}`
+
+var money = 40;
+var canBuy =
+    (money < 17) ? "Satın alamazsın..":
+    (money > 30) ? "Satın alabilirsin..":
+    "Para miktarını girmen gerekmektedir..";
+
+console.log(canBuy) // "Satın alabilirsin.."
