@@ -88,3 +88,43 @@ let fullName = `
     ${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()} ${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase()}
 `
 console.log(fullName)
+
+//DOCUMENT
+//length
+var isim = 'Erdinc'
+console.log(isim.length)
+
+//indexOf - metin içi arama
+console.log(isim.indexOf('di'))
+
+// Search - Metin İçinde Arama Yapma
+console.log(isim.search('r'))
+
+// Slice - Metninden Parça Almak
+console.log(isim.slice(0,4))//0 ile 4 arasını alır
+console.log(isim.slice(0))//0 dan sonrasının tamamını alır
+
+// Replace – Metin Bulma ve Değiştirme
+console.log(
+    isim.replace('dinc','di')
+)
+
+// toUpperCase ve toLowerCase
+console.log(isim.toUpperCase());
+console.log(isim.toLowerCase());
+
+// Concat - Metin Birleştirme
+var isim = "hava"
+var soyad = "ozdemir"
+console.log(isim.concat("",soyad))
+
+//charCodeAt – İndex Numarasına Göre Karakterin Unicode Değerini Bulma
+var isim = "Erdinc Ozdemir"
+console.log(
+    isim.charCodeAt(1)
+)
+
+// Split – Metni Diziye Çevirme
+var isim = "Erdinc, Hava"
+var isimler = isim.split(",")
+console.log(isimler)
