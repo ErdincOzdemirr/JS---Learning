@@ -2,6 +2,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
 
 let fullName = prompt("Lutfen Adinizi Giriniz: ")
+console.log(fullName)
 
 let greeting = document.querySelector("#greeting")
 
