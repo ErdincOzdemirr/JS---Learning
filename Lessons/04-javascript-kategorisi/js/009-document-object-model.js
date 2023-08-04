@@ -18,3 +18,10 @@ console.log(document.baseURI)
 // document icerisinde style bilgilerini degistirmek:
 // css bilginizle birlikte style yapisi uzerinde duzenlemeler yapabilirsiniz..
 document.body.style.backgroundColor = "aqua"
+
+function myFunction() {
+    var w = window.open();
+    w.document.open();
+    w.document.write("<h1>Hello World!</h1>");
+    w.document.close();
+}
