@@ -1,6 +1,6 @@
 // Kosullarla Calismak Bolum Sonu Egzersizi:
 
-/* 
+/*
 1- prompt ile aldigin bilgiye gore asagidaki yapiyi kullanarak notun bilgisini #info'ya yazdir
 AA  90-100
 BA  85-89
@@ -37,7 +37,7 @@ let textInfo;
 let info = document.querySelector("#info")
 
 if (examGrade >= 0 && examGrade <= 100) {
-    // tum if yapilari buraya gelsin
+// tum if yapilari buraya gelsin
     textInfo = SMILE
     info.classList.add('text-primary')
     if (examGrade >= 90) {
