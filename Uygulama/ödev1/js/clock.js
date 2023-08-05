@@ -24,4 +24,4 @@ function zaman() {
   clock.innerHTML = `${saat}:${dakika}:${saniye} ${gunName}`;
 }
 
-setInterval(zaman, 1000);
+setInterval(zaman, 1000)
