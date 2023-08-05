@@ -11,7 +11,16 @@ increaseDOM.addEventListener("click", clickEvent);
 decreaseDOM.addEventListener("click", clickEvent);
 
 function clickEvent() {
+  //1.yöntem
+  //   console.log(this.id);
+  //   this.id == "increase" ? (counter += 1) : (counter -= 1);
+  //   counterDOM.innerHTML = counter;
+
+  //2.yöntem
   console.log(this.id);
-  this.id == "increase" ? (counter += 1) : (counter -= 1);
-  counterDOM.innerHTML = counter;
+  if (this.id == "increase") {
+    counterDOM.innerHTML = counter += 1;
+  } else {
+    counterDOM.innerHTML = counter -= 1;
+  }
 }
