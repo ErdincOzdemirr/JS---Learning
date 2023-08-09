@@ -1,7 +1,7 @@
 // Local Storage Islemleri:
 // Eger tutacagimiz bilgi object ise JSON.stringify ile objeyi string yapiya cevirebiliriz.
 
-let user = { userName: "erdincozdemir.", isActive: true };
+let user = { userName: "erdincozdemir", isActive: true };
 console.log(user);
 localStorage.setItem("userInfo", JSON.stringify(user));
 
