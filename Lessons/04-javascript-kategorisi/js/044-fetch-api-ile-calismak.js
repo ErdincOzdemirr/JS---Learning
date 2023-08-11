@@ -9,7 +9,7 @@ fetch("data/settings.json").then(
   console.log(responseJson.userName)
 })
 
-let userListDOM = document.querySelector("#userList")
+// let userListDOM = document.querySelector("#userList")
 
 // API uzerinden veri cektik
 fetch("https://jsonplaceholder.typicode.com/posts").then(
