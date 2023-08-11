@@ -1,12 +1,12 @@
 // array map kullanimi
 // https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-const USERS = ["AYSE", "MehMet", "TugCE", "AkSEL"]
+const USERS = ["ERDINC", "MehMet", "TugCE", "AkSEL"]
 
-// userName icinde orjinal isim kalsin, 
-// shortName icinde ilk harf buyuk . (A.)
+// userName icinde orjinal isim kalsin,
+// shortName icinde ilk harf buyuk . (E.)
 // newName icinde ilk harf buyuk olsun
-// {userName: "AYSE", shortName: "A.", newName: "Ayse"}
+// {userName: "ERDINC", shortName: "E.", newName: "Erdi"}
 
 const NEW_USERS = USERS.map( user => user.toLowerCase() )
 console.log(NEW_USERS)
@@ -16,7 +16,7 @@ console.log(NEW_USERS)
 //     return {
 //       userName: item, shortName: `${item[0]}.`, newName: `${item[0].toUpperCase()}${item.slice(1).toLowerCase()}`
 //     }
-//   } 
+//   }
 // )
 
 const USERS_OBJ = USERS.map( item => (
