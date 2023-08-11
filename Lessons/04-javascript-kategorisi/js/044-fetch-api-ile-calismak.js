@@ -1,4 +1,4 @@
-// fetch api ile calismak
+// js 44 // fetch api ile calismak
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
 // JSON dosyadan veri cekmek:
