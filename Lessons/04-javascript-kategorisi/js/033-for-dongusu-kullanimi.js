@@ -5,7 +5,7 @@
 // yapilacak islem
 // }
 
-let users = ["Lorem", "Ipsum", "Dolor", ]
+let users = ["Erdinc", "Ipsum", "Dolor", ]
 
 // for (let index = 0; index < 10; index++) {
 //   console.log(index)
