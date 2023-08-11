@@ -1,4 +1,4 @@
-// array - dizilerle calismak
+// js 30 // array - dizilerle calismak
 
 // Array olusturmak
 let domain = "kodluyoruz"
@@ -36,7 +36,7 @@ console.log(
     Array.isArray(items)
 )
 
-// hangileri isArray -> True verir ? 
+// hangileri isArray -> True verir ?
 
 console.log("[] : ", Array.isArray( [] ) )
 console.log("1 : ", Array.isArray( 1 ) )
