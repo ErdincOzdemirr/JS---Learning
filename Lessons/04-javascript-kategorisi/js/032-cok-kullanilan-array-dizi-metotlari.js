@@ -2,10 +2,10 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // https://www.w3schools.com/js/js_array_methods.asp
 
-let items = [1, 2, 3, 4, 5] 
+let items = [1, 2, 3, 4, 5]
 
 // Array icinde Array:
-let femaleUsers = ["Ayse", "Hulya", "Merve"]
+let femaleUsers = ["Erdinc", "Hulya", "Merve"]
 let maleUsers = ["Ahmet", "Hasan", "Mehmet"]
 
 items.unshift(femaleUsers)
