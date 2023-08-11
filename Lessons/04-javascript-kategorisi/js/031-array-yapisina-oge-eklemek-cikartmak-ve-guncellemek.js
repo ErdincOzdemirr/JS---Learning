@@ -1,4 +1,4 @@
-// Array yapisina oge eklemek ve Array icerisinden istenilen ogenin cikarilmasi
+//js 31// Array yapisina oge eklemek ve Array icerisinden istenilen ogenin cikarilmasi
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 let items = [10, 20, 30, 40, ]
@@ -8,7 +8,7 @@ console.log("items - ilk hali : ", items)
 items.push(50)
 console.log("50 : ", items)
 
-// Array: basa oge eklemek -> unshift 
+// Array: basa oge eklemek -> unshift
 items.unshift(5)
 console.log("5 : ", items)
 
