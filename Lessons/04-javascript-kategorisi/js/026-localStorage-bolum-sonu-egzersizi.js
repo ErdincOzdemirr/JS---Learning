@@ -51,3 +51,5 @@ function clickEvent() {
 //   }
 //   itemsArray = [];
 // });
+
+//Erdinç Özdemir
