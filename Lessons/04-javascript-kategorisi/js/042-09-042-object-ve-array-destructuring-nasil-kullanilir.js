@@ -4,10 +4,10 @@
 // Object Destructuring:
 
 let settings = {
-  userName: "loremIpsum",
+  userName: "Erdinc",
   password: "BadPassword",
   isActive: false,
-  ip: "127.0.0.1", 
+  ip: "127.0.0.1",
   serverName: "kodluyoruz.org"
 }
 
