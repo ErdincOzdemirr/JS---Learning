@@ -5,8 +5,6 @@
 // yapilacak islem
 // }
 
-let users = ["Erdinc", "Ipsum", "Dolor", ]
-
 // for (let index = 0; index < 10; index++) {
 //   console.log(index)
 // }
@@ -17,10 +15,26 @@ let users = ["Erdinc", "Ipsum", "Dolor", ]
 //   console.log(index)
 // }
 
-const userListDOM = document.querySelector('#userList')
+// const userListDOM = document.querySelector('#userList')
 
-for (index = 0; index < users.length; index++) {
-  const liDOM = document.createElement('li')
-  liDOM.innerHTML = users[index]
-  userListDOM.appendChild(liDOM)
+// for (index = 0; index < users.length; index++) {
+//   const liDOM = document.createElement('li')
+//   liDOM.innerHTML = users[index]
+//   userListDOM.appendChild(liDOM)
+// }
+
+let users = ["Erdinc", "Ipsum", "Dolor"];
+
+// for (let index = 0; index < 10; index++) {
+//   console.log(index);
+// }
+// let index = 0
+// for (; index < 10; index++) {
+//   console.log(index);
+// }
+const userListDOM = document.querySelector('#userList');
+for(let index = 0; index < users.length; index++){
+  const liDOM = document.createElement('li');
+  liDOM.innerHTML = users[index];
+  userListDOM.appendChild(liDOM);
 }
