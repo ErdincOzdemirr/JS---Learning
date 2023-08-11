@@ -1,4 +1,4 @@
-// js 29 FORMLARLA CALISMAK: Bolum Sonu Egzersizi
+// js 29.FORMLARLA CALISMAK: Bolum Sonu Egzersizi
 
 /*
 1: Formu Sec
