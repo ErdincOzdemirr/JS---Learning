@@ -3,7 +3,7 @@
 
 // [key1:1, key1:2, key3:3, ]
 let laptop1 = {
-  brand: "Apple", 
+  brand: "Apple",
   model: "MacBook Pro",
   "2kg": 2,
   modelName: "MacBook Pro",
@@ -32,7 +32,7 @@ keys = Object.keys(laptop1)
 console.log(keys)
 console.log(Object.keys(laptop1))
 
-keys.forEach(keyInfo => { 
+keys.forEach(keyInfo => {
   console.log(keyInfo)
   console.log(laptop1[keyInfo])
 })
@@ -44,7 +44,7 @@ console.log(
 
 let values = Object.values(laptop1)
 
-values.forEach(value => { 
+values.forEach(value => {
   console.log("value: ", value)
 })
 
@@ -54,3 +54,14 @@ let setting = {
   userName: 'user1'
 }
 
+let countriesTalkSpanish = {
+  continent: "South America",
+  language: "Spanish"
+  };
+
+  //Görev: yukarıdaki objeyle aynı propertylere sahip ve başkenti "Montevideo" olan uruguay objesini oluşturalım.
+  //Alttaki yorum satırını kaldırıp kodunuzu yazmaya başlayabilirsiniz.
+
+  let uruguay = Object.create(countriesTalkSpanish)
+
+   uruguay.capital = "Montevideo"
