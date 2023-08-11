@@ -12,8 +12,8 @@ let settings = {
 }
 
 // obje icindeki bilgilerin tek seferde cikarilmasi
-// let userName = settings.userName
-// console.log(userName)
+let userName = settings.userName
+console.log(userName)
 
 // rename && destructuring
 let {userName: user, password, isActive, ip:serverIP, serverName} = settings
