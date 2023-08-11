@@ -1,4 +1,4 @@
-// FORMLARLA CALISMAK: Bolum Sonu Egzersizi
+// js 29 FORMLARLA CALISMAK: Bolum Sonu Egzersizi
 
 /*
 1: Formu Sec
@@ -22,10 +22,10 @@ function formHandler(event) {
     event.preventDefault()
     const USER_NAME = document.querySelector("#username")
     const SCORE = document.querySelector("#score")
-    
+
     if (USER_NAME.value && SCORE.value) {
         addItem(USER_NAME.value, SCORE.value)  // gonderdikten sonra sifirladik
-        USER_NAME.value = "" 
+        USER_NAME.value = ""
         SCORE.value = ""
     } else {
         alertDOM.innerHTML = alertFunction(
@@ -34,7 +34,7 @@ function formHandler(event) {
             "success"
         )
     }
-    
+
 }
 
 
@@ -44,7 +44,7 @@ let userListDOM = document.querySelector('#userList')
 const addItem = (userName, score) => {
     let liDOM = document.createElement('li')
     liDOM.innerHTML = `
-        ${userName} 
+        ${userName}
         <span class="badge bg-primary rounded-pill">${score}</span>
     `
     liDOM.classList.add(
