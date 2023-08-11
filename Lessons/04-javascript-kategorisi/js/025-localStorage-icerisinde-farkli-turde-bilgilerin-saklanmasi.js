@@ -3,11 +3,11 @@
 
 let user = { userName: "ErdincOzdemir", isActive: true };
 console.log(user);
-localStorage.setItem("userInfo", JSON.stringify(user));
+// localStorage.setItem("userInfo", JSON.stringify(user));
 
-let userInfo = localStorage.getItem("userInfo"); // bilgiyi al
-userInfo = JSON.parse(userInfo);
-console.log(userInfo);
+// let userInfo = localStorage.getItem("userInfo"); // bilgiyi al
+// userInfo = JSON.parse(userInfo);
+// console.log(userInfo);
 
 // 2. egzersiz:
 let items = [1, 2, 3, user];
