@@ -2,10 +2,16 @@
 // https://www.w3schools.com/js/js_break.asp
 
 const LOREM_LIST = [
-  'lorem', 'ipsum', 'dolor', 'amet', 'consectetur,', 'adipisicing', 'elit' 
-]
+  "Erdinc",
+  "ipsum",
+  "dolor",
+  "amet",
+  "consectetur,",
+  "adipisicing",
+  "elit",
+];
 
-let counter = 0
+let counter = 0;
 
 // for (; counter < 10; counter++) {
 //   console.log(counter)
@@ -17,9 +23,9 @@ let counter = 0
 //   console.log(counter)
 // }
 
-const UL_DOM = document.querySelector('#userList')
+const UL_DOM = document.querySelector("#userList");
 
-let index = 0
+let index = 0;
 
 // for (; index < LOREM_LIST.length; index++) {
 //   if (LOREM_LIST[index] == "dolor") {break}
@@ -29,8 +35,10 @@ let index = 0
 // }
 
 for (; index < LOREM_LIST.length; index++) {
-  if (LOREM_LIST[index] == "dolor") {continue}
-  let LI_DOM = document.createElement('li')
-  LI_DOM.innerHTML = LOREM_LIST[index]
-  UL_DOM.append(LI_DOM)
+  if (LOREM_LIST[index] == "dolor") {
+    continue;
+  }
+  let LI_DOM = document.createElement("li");
+  LI_DOM.innerHTML = LOREM_LIST[index];
+  UL_DOM.append(LI_DOM);
 }
