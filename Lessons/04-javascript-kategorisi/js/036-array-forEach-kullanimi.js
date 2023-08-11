@@ -44,3 +44,22 @@ PRODUCTS.forEach ( item => {
   liDOM.innerHTML = item
   userListDOM.append(liDOM)
 })
+
+const animals = ["cat" , "dog" , "bird", "horse"];
+
+animals.forEach((value , index , array) => {
+  console.log('value: ', value );
+  console.log('value parametresinin aldığı index :', index );
+  console.log('array:' , array );
+});
+
+animals.forEach( animal => console.log( animal ) );
+//Arrow function gosterimi(ES6)
+
+const numbers = [4, 11, 9];
+const newArray = [];
+
+numbers.forEach(function(numbers){
+  newArray.push(numbers+2);
+});
+console.log(newArray);
