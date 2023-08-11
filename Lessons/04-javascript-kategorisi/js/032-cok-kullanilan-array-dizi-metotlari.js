@@ -5,8 +5,8 @@
 let items = [1, 2, 3, 4, 5]
 
 // Array icinde Array:
-let femaleUsers = ["Erdinc", "Hulya", "Merve"]
-let maleUsers = ["Ahmet", "Hasan", "Mehmet"]
+let femaleUsers = ["Hava", "Hulya", "Merve"]
+let maleUsers = ["Erdinc", "Hasan", "Mehmet"]
 
 items.unshift(femaleUsers)
 
