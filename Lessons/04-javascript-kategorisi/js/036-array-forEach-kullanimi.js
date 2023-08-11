@@ -2,7 +2,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/forEach
 // https://www.w3schools.com/jsref/jsref_foreach.asp
 
-const PRODUCTS = ["Laptop", "Phone", "Speaker", "Desktop PC", "Server", "Mouse", "Keyboard"]
+const PRODUCTS = ["Macbook", "Phone", "Speaker", "Desktop PC", "Server", "Mouse", "Keyboard"]
 
 // PRODUCTS.forEach((product, index, array) => array[index] = product + " 111" )
 PRODUCTS.forEach((product, index, array) => array[index] = `${product.toUpperCase()}` )  // toUpperCase
